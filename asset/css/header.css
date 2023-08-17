@@ -1,0 +1,85 @@
+
+.header{
+    background: url(../img/unsplash_gioH4gHo0-g.png) top center / cover no-repeat;
+    height: 808px;
+    object-fit: cover;
+    position: relative;
+}
+
+.header__nav{
+    padding: 56px 88px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav--option{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header__nav--option-item{
+    font-size: 18px;
+    font-weight: var(--font-weight600);
+    line-height: 130%;
+}
+.header__nav--option-text{
+    padding: 16px;
+}
+.header__nav--option-item img{
+    width: 225px;
+    height: 40px;
+    padding-right: 16px;
+}
+.header__nav--vector{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__nav--vector--icon{
+    width: 24px;
+    height: 24px;
+}
+
+.header__text{
+    padding-left: 88px;
+    width: 550px;
+    height: 557px;
+    display: flex;
+    align-items: center;
+    font-size: 56px;
+    font-weight: var(--font-weight700);
+    line-height: 120%;
+    letter-spacing: 1.12px;
+}
+
+.header__tempalte{
+    position: absolute;
+    display: flex;
+    width: calc(100% - 240px);
+    height: 250px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    background-image: linear-gradient(rgba(171, 4, 51, 0.7), rgba(171, 4, 51, 0.7)), url(../img/guitar.png);
+    background-size: 100%;
+    background-position: center center;
+    border-radius: 10px;
+    top: 100%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05), 0px 2px 4px 0px rgba(28, 5, 77, 0.10);
+}
+.header__tempalte--header{
+
+}
+.header__tempalte--title{
+
+}
+.header__tempalte--text{
+
+}
+.header__tempalte--button{
+
+}
