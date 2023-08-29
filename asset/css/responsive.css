@@ -1,0 +1,31 @@
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .header__nav {
+        padding: 63px 4.94% 0;
+    }
+    .header__text {
+        padding-left: 4.94%;
+    }
+    .header__tempalte{
+        width: calc(100% - calc(9.88% + 64px));
+    }
+}
+
+/* Mobile & Tablet */
+@media screen and (max-width: 1023px) {
+    .header__nav--option-list{
+        display: none;
+    }
+    .header__nav--vector{
+        display: none;
+    }
+    .header__nav--icon-menu{
+        display: block;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 739px){
+
+}
