@@ -10,4 +10,6 @@
 :root{
     --font-weight600: 600;
     --font-weight700: 700;
+    --text-color: #505050;
+    --color-primary: #767676;
 }

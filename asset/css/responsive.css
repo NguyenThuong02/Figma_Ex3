@@ -3,6 +3,14 @@
     .header__nav {
         padding: 63px 4.94% 0;
     }
+    .header__nav--option-logo img{
+        width: 25vw;
+        height: 3.9vw;
+        padding-right: 16px;
+    }
+    .header__tempalte--text{
+        width: 80%;
+    }
     .header__text {
         padding-left: 4.94%;
     }
