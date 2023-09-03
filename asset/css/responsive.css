@@ -27,6 +27,16 @@
         column-gap: 32px;
         row-gap: 32px;
     }
+    .card-item--gear:nth-child(3){
+        display: none;
+    }
+    .content__gear-list{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "h1 h2"
+        "h4 h5";
+    }
 }
 
 /* Mobile & Tablet */
@@ -85,5 +95,16 @@
         grid-template-columns: 1fr;
         row-gap: 32px;
         margin-top: 12px;
+    }
+    .card-item--gear:nth-child(3){
+        display: none;
+    }
+    .content__gear-list{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .card-item--gear{
+        width: 100%;
     }
 }
