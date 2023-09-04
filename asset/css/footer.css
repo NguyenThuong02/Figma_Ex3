@@ -1,0 +1,55 @@
+
+.footer__head{
+    background-color: #505050;
+    padding: 68px 3.611% 68px 6.9444%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left{
+    display: flex;
+    align-items: flex-start;
+}
+.footer__left--list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footer__left--account{
+    margin-right: 48px;
+}
+.footer__lest--line{
+    width: 58px;
+    height: 2px;
+    background-color: #fff;
+}
+.footer__left--item{
+    font-size: 14px;
+    line-height: 130%;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer__left--title{
+    font-weight: 700;
+}
+.footer__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.footer__right--logo img{
+    padding-right: 0;
+}
+.footer__right--list a{
+    text-decoration: none;
+}
+.footer__right--icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.footer__end{
+
+}

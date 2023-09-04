@@ -37,6 +37,15 @@
         "h1 h2"
         "h4 h5";
     }
+    .footer__head{
+        background-color: #505050;
+        padding: 68px 6.25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__right--logo img{
+        padding-right: 0;
+    }
 }
 
 /* Mobile & Tablet */
@@ -52,6 +61,9 @@
     }
     .card-item2{
         display: block;
+    }
+    .footer__right--icon{
+        margin-left: 2px;
     }
 }
 
